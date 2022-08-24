@@ -1,13 +1,15 @@
 {
-   "name": "TEG Accordion",
-   "version": "1.0.0",
+   "name"           : "teg-accordion",
+   "title"          : "TEG Accordion",
+   "version"        : "0.1",
+   "license"        : "MIT",
    "devDependencies": {
-      "git-rev-sync": "^3.0.2",
-      "grunt": "^1.5.3",
-      "grunt-cli": "^1.4.3",
-      "grunt-contrib-copy": "^1.0.0",
+      "git-rev-sync"        : "^3.0.2",
+      "grunt"               : "^1.5.3",
+      "grunt-cli"           : "^1.4.3",
+      "grunt-contrib-copy"  : "^1.0.0",
       "grunt-contrib-cssmin": "^4.0.0",
       "grunt-contrib-uglify": "^5.2.2",
-      "load-grunt-tasks": "^5.1.0"
+      "load-grunt-tasks"    : "^5.1.0"
    }
 }
