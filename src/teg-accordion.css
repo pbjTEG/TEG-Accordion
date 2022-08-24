@@ -1,0 +1,31 @@
+/*
+defaults are for Engaging Network's Events ticket holder fields
+ */
+.en__registrants__ticketHead {
+	cursor: pointer;
+}
+
+.en__registrants__ticketHead::after {
+	content: "+";
+	display: block;
+	float: right;
+}
+
+.en__registrants__ticketHead.open::after {
+	content: "-";
+	display: block;
+	float: right;
+}
+
+.en__registrants__group {
+}
+
+.en__registrants__ticketHead + .en__registrants__group {
+	max-height: 1px;
+	overflow: hidden;
+}
+
+.en__registrants__ticketHead.open + .en__registrants__group {
+	max-height: 9999px;
+	transition: max-height .5s;
+}
