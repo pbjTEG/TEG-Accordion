@@ -11,7 +11,7 @@ module.exports = function (grunt) {
 		                          '*\n' +
 		                          '* <%= pkg.description %>\n' +
 		                          '*\n' +
-		                          '* Copyright (c) <%= grunt.template.today("yyyy") %> PMG: The Engage Group +\n' +
+		                          '* Copyright (c) <%= grunt.template.today("yyyy") %> PMG: The Engage Group\n' +
 		                          '* License: <%= pkg.license %>\n' +
 		                          '*\n' +
 		                          '* Release:\n' +
